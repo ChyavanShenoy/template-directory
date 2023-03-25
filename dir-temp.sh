@@ -18,5 +18,5 @@ mkdir -p ~/Desktop/Projects/"${input_string}"/IPT/scans
 mkdir -p ~/Desktop/Projects/"${input_string}"/IPT/scopes
 mkdir -p ~/Desktop/Projects/"${input_string}"/IPT/tools
 
-# Print a message to the user indicating success
-echo "Directory structure created successfully for '${input_string}'"
+echo -e "\033[32mDirectory structure created successfully for '${input_string}'\033[0m"
+
