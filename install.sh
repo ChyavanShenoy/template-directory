@@ -5,7 +5,7 @@ if [[ $EUID -ne 0 ]]; then
    exit 1
 fi
 
-mv dir-temp.sh /usr/local/bin
+mv dir-temp.sh /usr/local/bin/dir-temp
 chmod +x /usr/local/bin/dir-temp.sh
 echo -e "\033[32mdir-temp script installed successfully.\033[0m"
 echo -e "\033[34mTo run the script, type 'dir-temp' in the terminal.\033[0m"
